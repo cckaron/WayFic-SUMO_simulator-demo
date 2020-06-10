@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu 11 Jun 2020 12:31:17 AM CST by Eclipse SUMO GUI Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="data/demo.net.xml"/>
+        <route-files value="data/demo_traci.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="54000"/>
+        <end value="54900"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="38907"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

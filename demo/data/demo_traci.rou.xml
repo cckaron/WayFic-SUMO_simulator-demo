@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="CarA" length="5.00" minGap="2.50" maxSpeed="50.00" accel="3.0" decel="6.0" sigma="0.5"/>
+    <vType id="CarB" length="7.50" minGap="2.50" maxSpeed="50.00" accel="2.0" decel="6.0" sigma="0.5"/>
+    <vType id="CarC" length="5.00" minGap="2.50" maxSpeed="40.00" accel="1.0" decel="5.0" sigma="0.5"/>
+    <vType id="CarD" length="7.50" minGap="2.50" maxSpeed="30.00" accel="1.0" decel="5.0" sigma="0.5"/>
+    <vType id="CarTest" length="7.5" minGap="2.50" maxSpeed="30.00" accel="1.0" decel="5.0" sigma="0.5" color="red"/>
+    <vType id="DEFAULT_VEHTYPE" vClass="motorcycle"/>
+    <route edges="D2 L2 L12 L10 L7 D7" color="yellow" id="route01"/>
+    <route edges="D2 L2 L12 L15 L18 L5 D5" color="yellow" id="route02"/>
+    <route edges="D2 L2 L12 L15 L13 L3 D3" color="yellow" id="route03"/>
+    <route edges="D4 L4 L14 L18 L5 D5" color="yellow" id="route04"/>
+    <route edges="D4 L4 L14 L16 L10 L7 D7" color="yellow" id="route05"/>
+    <route edges="D4 L4 L14 L16 L11 L1 D1" color="yellow" id="route06"/>
+    <route edges="D6 L6 L17 L13 L3 D3" color="yellow" id="route07"/>
+    <route edges="D6 L6 L17 L16 L11 L1 D1" color="yellow" id="route08"/>
+    <route edges="D6 L6 L17 L16 L10 L7 D7" color="yellow" id="route09"/>
+    <route edges="D8 L8 L9 L11 L1 D1" color="yellow" id="route10"/>
+    <route edges="D8 L8 L9 L15 L13 L3 D3" color="yellow" id="route11"/>
+    <route edges="D8 L8 L9 L15 L18 L5 D5" color="yellow" id="route12"/>
+</routes>
